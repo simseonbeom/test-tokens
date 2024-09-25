@@ -19,7 +19,7 @@
       }
     },
     "Primary": {
-      "value": "{primitive.black}",
+      "value": "{primitive.yellow}",
       "type": "color"
     },
     "Accent": {
