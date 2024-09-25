@@ -1,0 +1,72 @@
+{
+  "global": {
+    "primitive": {
+      "black": {
+        "value": "#000",
+        "type": "color"
+      },
+      "white": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "yellow": {
+        "value": "#ffc144",
+        "type": "color"
+      },
+      "blue": {
+        "value": "#2cc3ff",
+        "type": "color"
+      }
+    },
+    "Primary": {
+      "value": "{primitive.black}",
+      "type": "color"
+    },
+    "Accent": {
+      "value": "{primitive.blue}",
+      "type": "color"
+    },
+    "baseSpace": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "Space-1": {
+      "value": "{baseSpace}",
+      "type": "spacing"
+    },
+    "Space-2": {
+      "value": "{baseSpace} * 2",
+      "type": "spacing"
+    },
+    "Space-3": {
+      "value": "{baseSpace}  *3",
+      "type": "spacing"
+    },
+    "Space-4": {
+      "value": "{baseSpace}  * 4",
+      "type": "spacing"
+    },
+    "Radius": {
+      "M": {
+        "value": "{baseSpace} * 2",
+        "type": "borderRadius"
+      },
+      "L": {
+        "value": "{baseSpace} * 3",
+        "type": "borderRadius"
+      }
+    },
+    "Stroke": {
+      "Width": {
+        "value": "2",
+        "type": "borderWidth"
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
